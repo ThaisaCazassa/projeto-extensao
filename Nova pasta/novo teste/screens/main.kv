@@ -1,0 +1,13 @@
+<MainScreen>:
+    BoxLayout:
+        orientation: 'vertical'
+        Image:
+            source: 'V:/Usuarios/Vapo/Desktop/Nova pasta/novo teste/logo.png'
+            size_hint_y: None
+            height: dp(100)  # Altura do espaço reservado para o logo
+        Button:
+            text: 'Catalogar Livro'
+            on_press: root.manager.current = 'book_entry'
+        Button:
+            text: 'Pesquisar Livros'
+            # Implementação do segundo botão

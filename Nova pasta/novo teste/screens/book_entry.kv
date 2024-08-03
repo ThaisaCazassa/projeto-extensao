@@ -1,0 +1,12 @@
+<BookEntryScreen>:
+    BoxLayout:
+        orientation: 'vertical'
+        Label:
+            text: 'Página de Cadastro de Livros'
+        # Campos de entrada para dados do livro (título, autor, etc.)
+        Button:
+            text: 'Salvar'
+            # Implementação da lógica para salvar o livro
+        Button:
+            text: 'Voltar'
+            on_press: root.manager.current = 'main'
